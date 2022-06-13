@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="website.css">
+ </head>
+ <body>
+     <header>
+         <nav>
+             <ul id="hul">
+                <li class="hli">
+                     <a href="./Login.html">Login</a>
+                 </li>
+                 <li class="hli">
+                     <a class="active" href="./Registration.html">Register</a>
+                 </li>
+                 <li class="hli">
+                     <a href="./Contact.html">Contact Me</a>
+                 </li>
+                 <li class="hli">
+                     <a href="./About_Me.html">Home</a>
+                 </li>
+                 <li class="menu">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div class=" menu-content">
+                         <a href="./About_Me.html">Home <hr></a>
+                         <a href="./Contact.html">Contact Me <hr></a>
+                         <a href ="./Registration.html">Register<hr></a>
+                         <a href="./Login.html">Login <hr></a>
+                     </div>
+                 </li>
+               </ul>
+         </nav>
+     </header>
+
+     <main>
+         <form action="">
+             <fieldset>
+                 <legend>Register Here:</legend>
+                 <p class="p">Ensure you fill in the following details correctly.</p>
+                 <fieldset>
+                     <legend>Personal Information:</legend>
+                     <div>
+                         <label for="fname">First Name:</label><br>
+                         <input type="text" name="fname" id="fname" minlength="3" maxlength="15"
+                          placeholder="Your first name..." required>
+                     </div>
+                     <div>
+                         <label for="lname">Last Name:</label><br>
+                         <input type="text" name="lname" id="lname" minlength="3"
+                          placeholder="Your Surname/Last name..." maxlength="15" required>
+                     </div>
+                     <div>
+                         <label for="gen">Gender:</label><br>
+                         <select name="gen" id="gen" required>
+                             <option value="female">Female</option>
+                             <option value="male">Male</option>
+                             <option value="prefer not to say">Prefer not to say</option>
+                         </select>
+                     </div>
+                 </fieldset>
+   
+                 <fieldset>
+                     <legend>Contact Details:</legend>
+                     <div>
+                         <label for="phone">Phone Number:</label><br>
+                         <input type="tel" name="phone" id="phone"
+                          placeholder="0123-456-7890" required
+                          pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}">
+                     </div>
+                     <div>
+                         <label for="mail">Email:</label><br>
+                         <input type="email" name="mail" id="mail" required>
+                     </div>
+                 </fieldset>
+   
+                 <fieldset>
+                     <legend>Nationality:</legend>
+                     <div>
+                         <label for="country">Country:</label><br>
+                         <input type="text" name="country" id="country" minlength="5" maxlength="20" required>
+                     </div>
+                     <div>
+                         <label for="state">State/Province:</label><br>
+                         <input type="text" name="state" id="state" maxlength="10" minlength="3" required>
+                     </div>
+                     <div>
+                         <label for="city">City:</label><br>
+                         <input type="text" name="city" id="city" minlength="3" maxlength="15" required>
+                     </div>
+                 </fieldset>
+   
+                 <fieldset>
+                     <legend>Login Details:</legend>
+                     <div>
+                         <label for="name">Username:</label><br>
+                         <input type="text" name="name" id="name" minlength="5" maxlength="10" required>
+                     </div>
+                     <div>
+                         <label for="pword">Password:</label><br>
+                         <input type="password" name="pword" id="pword" minlength="8" maxlength="20" required>
+                     </div>
+                     <div>
+                         <label for="cpword">Confirm Password:</label><br>
+                         <input type="password" name="cpword" id="cpword">
+                     </div>
+                 </fieldset>
+
+                 <div>
+                     <input type="checkbox" name="agree" id="agree" required>
+                     <label for="agree"><i>I agree to the <u>terms and conditions</u></i></label>
+                 </div>
+   
+                 <div>
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                 </div>
+             </fieldset>
+
+             <div>
+                  <p class="para">
+                     <i>Already have an account?</i>
+                     <a href="./Login.html">Login Here</a>
+                  </p>
+             </div>
+         </form>
+     </main>
+
+     <footer></footer>
+ </body>
+</html>

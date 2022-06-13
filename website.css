@@ -1,0 +1,254 @@
+/*Header*/
+#hul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    height: 30px;
+}
+
+.hli{
+    float: right;
+}
+
+li a{
+    display: ruby-base;
+    color: white;
+    text-align: center;
+    text-decoration: antiquewhite;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: blue;
+
+}
+li div{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+li.menu{
+    float: left;
+}
+.menu-content{
+    display:none;
+    position: absolute;
+    background-color: #f1f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px
+    floralwhite;
+}
+.menu-content a{
+    float: none;
+    color: blue;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: whitesmoke;
+}
+.menu:hover .menu-content{
+    display: block;
+}
+
+/*Body*/
+body{
+    background-color: white;
+    color: #32254e;
+}
+
+/*About_me.html*/
+img{
+    float: right;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border-style: inset;
+}
+#h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.h1{
+    font-size: 50px;
+}
+.p{
+    font-size: 75px;
+}
+ol, ul{
+    font-size: 22px;
+}
+#button{
+    background-color: #ff4f79;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration:thistle;
+    display: flex;
+    font-size: 16px;
+    box-shadow: 10px 10px 10px 10px
+    #916d6d;
+    margin: 0 auto;
+}
+.fa{
+    padding: 20px;
+    text-align: center;
+    margin: 5px 5px;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.fa-facebook{
+    background: #3b5998;
+    color: white;
+    border-radius: 10px;
+}
+.fa-github{
+    background: black;
+    color: white;
+}
+.fa-instagram{
+    background: #cb2027;
+    color: white;
+}
+.fa-linkedin{
+    background: #007bb5;
+    color: white;
+}
+.fa-twitter{
+    background: #55acee;
+    color: white;
+}
+#social{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+    height: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.social{
+    float: left;
+}
+.fab-container{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+.iconbutton{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background: #ff4f79;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    background: #32254e;
+}
+.iconbutton i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+
+
+/*Registration.html*/
+
+input[type=text], input[type=email], input[type=password], input[type=tel], select, textarea {
+width: 100%;
+margin: 6px 0;
+padding: 15px 20px;
+background-color: floralwhite;
+display: inline;
+font-family: Geneva;
+font-size: 20px;
+border: 1px solid darkgrey;
+border-radius: 6px;
+box-sizing: border-box;
+}
+
+label, legend{
+    font-size: 25px;
+}
+
+input[type=submit]{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    font-family: Verdana;
+    font-size: 20px;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: honeydew;
+}
+
+input[type=reset]{
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    font-family: Verdana;
+    font-size: 20px;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: honeydew;
+}
+
+.p{
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+/*Contact.html*/
+
+.submit{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: honeydew;
+}
+
+/*Login.html*/
+
+.para{
+    font-size: 25px;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    text-align: center;
+    border: 1px ridge gray;
+    background-color: #334754
+}
+
+footer p{
+    text-decoration: solid;
+    font-size: 20px;
+    font-family: Arial;
+    color: lightsteelblue;
+}

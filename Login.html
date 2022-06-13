@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="website.css">
+ </head>
+ <body>
+     <header>
+         <nav>
+             <ul id="hul">
+                <li class="hli">
+                     <a class="active" href="./Login.html">Login</a>
+                 </li>
+                 <li class="hli">
+                     <a href="./Registration.html">Register</a>
+                 </li>
+                 <li class="hli">
+                     <a href="./Contact.html">Contact Me</a>
+                 </li>
+                 <li class="hli">
+                     <a href="./About_Me.html">Home</a>
+                 </li>
+                 <li class="menu">
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div class=" menu-content">
+                         <a href="./About_Me.html">Home <hr></a>
+                         <a href="./Contact.html">Contact Me <hr></a>
+                         <a href ="./Registration.html">Register<hr></a>
+                         <a href="./Login.html">Login <hr></a>
+                     </div>
+                </li>
+              </ul>
+         </nav>
+     </header>
+
+     <main>
+         <form action="">
+             <fieldset>
+                 <legend>Login Details:</legend>
+                 <div>
+                     <label for="name">Username:</label><br>
+                     <input type="text" name="name" id="name" minlength="5" maxlength="10" required>
+                 </div>
+                 <div>
+                     <label for="pword">Password:</label><br>
+                     <input type="password" name="pword" id="pword" minlength="8" maxlength="20" required>
+                 </div>
+                 <div>
+                     <input class="submit" type="submit" value="Sign In">
+                 </div>
+                 <div>
+                     <p class="para">
+                         <i>Don't have an account yet?</i>
+                         <a href="./Registration.html">Register</a>
+                     </p><br>
+                     <a class="para" href="#link">Forgot Password</a>
+                 </div>
+             </fieldset>
+         </form>
+     </main>
+
+     <footer></footer>
+ </body>
+</html>
